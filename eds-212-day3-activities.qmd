@@ -2,10 +2,25 @@
 title: "eds-212-day3-activities"
 ---
 
-## Quarto
+```{r}
+vec_a <- c(1,6)
+vec_b <- c(2,4)
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```
+
+## Finding addition, subtraction, scalar, and dot
 
 ```{r}
-1 + 1
+#addition
+vec_a + vec_b
+#subtraction
+vec_a - vec_b
+#Scalar
+4 * vec_a
+4 * vec_b
+
+#Dot
+
+vec_a %*% vec_b
 ```
